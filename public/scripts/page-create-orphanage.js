@@ -93,7 +93,17 @@ function toggleSelect(event) {
     //verificar se sim ou nao
     
     input.value = button.dataset.value
+}
 
+function validate(event){
+/*
+    //validar se lat e lng estao preenchidos 
+    //precisa pegar o campo e verificar se esta vazio
+    const needsLatandLng = true;
+    if(needsLatandLng){
 
-
+    } 
+    event.preventDefault() // nao envia o formulario
+    alert('Selecione um ponto no mapa!')
+*/
 }
